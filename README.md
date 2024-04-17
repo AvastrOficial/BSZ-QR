@@ -5,6 +5,7 @@ Este código Ruby genera un código QR a partir de una URL ingresada por el usua
 Importación de librerías: Las librerías net/http y uri son importadas para manejar solicitudes HTTP y URLs.
 <br></br>
 Definición del método generar_qr: Este método toma una URL como entrada y genera el código QR correspondiente. La URL es codificada para asegurarse de que sea segura en una consulta HTTP. Luego, se construye la URL de la API qrserver.com para generar el código QR con el tamaño de 150x150 píxeles y los datos de la URL codificados. Se realiza una solicitud GET a la API y se verifica si la respuesta tiene un código de estado 200, lo que indica que la solicitud fue exitosa. Si es así, la imagen del código QR se guarda como un archivo PNG localmente con el nombre "codigo_qr.png".
+<br></br>
 Interfaz de usuario ASCII: Se imprime un banner ASCII que dice "Generador de Código QR". Esto se hace utilizando caracteres ASCII para crear una apariencia visual atractiva en la consola.
 <br></br>
 Solicitud de URL al usuario: Se solicita al usuario que ingrese la URL que desea convertir en un código QR.
