@@ -14,5 +14,6 @@ Llamada al método generar_qr: Se llama al método generar_qr con la URL ingresa
 
 ## Resumen
 Este código Ruby proporciona una interfaz sencilla para generar códigos QR a partir de URLs ingresadas por el usuario y guarda el código QR generado como una imagen PNG localmente
+<br></br>
 ![image](https://github.com/AvastrOficial/BSZ-QR/assets/91764815/879ae0d8-65e9-4133-8ee2-137fb9e1c66b)
 ![image](https://github.com/AvastrOficial/BSZ-QR/assets/91764815/789dd0f7-597c-4fdd-a81d-a715ddb6fe5e)
