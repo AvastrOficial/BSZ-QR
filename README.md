@@ -12,6 +12,19 @@ Solicitud de URL al usuario: Se solicita al usuario que ingrese la URL que desea
 <br></br>
 Llamada al método generar_qr: Se llama al método generar_qr con la URL ingresada por el usuario como argumento para generar el código QR.
 
+## INTALACION TERMUX: 
+> pkg update
+<br></br>
+> pkg upgrade
+<br></br>
+> pkg install git ruby
+<br></br>
+> git clone https://github.com/AvastrOficial/BSZ-QR.git
+<br></br>
+> cd BSZ-QR
+<br></br>
+> ruby BSZQR.rb
+
 ## Resumen
 Este código Ruby proporciona una interfaz sencilla para generar códigos QR a partir de URLs ingresadas por el usuario y guarda el código QR generado como una imagen PNG localmente
 <br></br>
